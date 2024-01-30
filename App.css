@@ -1,0 +1,37 @@
+/* styles.css */
+
+.app {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.pokecard {
+  width: 200px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+}
+
+.pokecard img {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.pokecard div {
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
